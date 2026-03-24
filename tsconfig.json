@@ -9,7 +9,7 @@
     // See also https://aka.ms/tsconfig/module
     "module": "esnext",
     "target": "esnext",
-     "moduleResolution": "bundler",
+    "moduleResolution": "bundler",
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -34,7 +34,7 @@
     // "noPropertyAccessFromIndexSignature": true,
     "allowSyntheticDefaultImports": true,
     "allowImportingTsExtensions": true,
-    "noEmit": false,
+    "noEmit": true,
 
     // Recommended Options
     "strict": true,
